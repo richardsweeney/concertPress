@@ -1592,7 +1592,7 @@ class RPS_ConcertPress {
 					// Time & Venue
 					$html .= '<span class="time dtstart">' . $niceEventDate  . '</span>';
 					$html .= '<span class="location"><strong>Venue: </strong>' . $venue . '</span>';
-					$html .= $address;
+					// $html .= $address;
 					$html .= '<span class="prog-title summary"><strong>Programme: </strong>' . $prog . '</span>';
 					$html .= '<div class="description">' . $excerpt . '</div>';
 
